@@ -302,7 +302,7 @@ function startExperiment() {
             if (['ArrowLeft', 'ArrowUp', 'ArrowRight'].includes(event.key) && !keydownHandled && !keyHeldDown) {
                 if (prematureKeyPress) { // If it was a valid but premature key press
                     // feedbackDiv.innerHTML = 'You pressed too soon! 5 seconds waiting period now starts.';
-                    feedbackDiv.innerHTML = 'You pressed too soon!';
+                    feedbackDiv.innerHTML = 'You picked too quickly!';
                     feedbackDiv.style.display = 'block';
                     document.removeEventListener('keydown', responseHandler); // Remove the stored responseHandler
                     omitTooSoon = true;
@@ -405,7 +405,7 @@ function startExperiment() {
             arrowImageElement.src = '';
             arrowImageElement.style.display = 'none';
             if (!omitTooSoon) { feedbackDiv.innerHTML = 'Oops! Too slow.'; }
-            else { feedbackDiv.innerHTML = 'Please do not to rush through your answers!'; }
+            else { feedbackDiv.innerHTML = 'Please do not try to rush through the game!'; }
         }
         feedbackDiv.style.display = 'block';
         
