@@ -273,7 +273,7 @@ function startExperiment() {
         // Handle premature key press
         const prematureResponseTimeout = setTimeout(() => {
             prematureKeyPress = false;
-        }, 250);
+        }, 200);
 
         // Show ponds and arrow image
         document.getElementById('pondsContainer').style.display = 'block';
