@@ -342,7 +342,7 @@ function startExperiment() {
                 document.removeEventListener('keyup', keyUpHandler); // Remove the keyup handler
                 handleResponse(trial, startTime, ''); // Call the handleResponse function with 'none' as the key press
             }
-        }, 300); //MUST CHANGE BACK TO 3000!!!
+        }, 3000); //MUST CHANGE BACK TO 3000!!!
 
         // // Set a timeout for the trial duration (2 seconds)
         // const trialDurationTimeout = setTimeout(() => {
