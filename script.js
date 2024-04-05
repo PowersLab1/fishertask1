@@ -102,12 +102,12 @@ function startExperiment() {
             '<br><br><br>Press "Q" Key to continue.',
         '"Guess Which Pond!" Fishing Game'+
             "<br><br>Imagine a fisherman that goes fishing for 10 days." +
-            "<br><br>There are 3 ponds, each containing a mix of fish of different colors: blue, yellow, and green." +
+            "<br><br>He fishes from 3 ponds, each containing a mix of fish of different colors: blue, yellow, and green." +
             "<br><br>In each pond the majority of the fish are of a single color."+
             '<br><br><br>Press "Q" Key to proceed.',
         "Each day, the fisherman catches 15 fish. He will show you each fish he catches one by one (shown in a black square on the screen)." +
             '<br><br>Each turn, you will guess from which pond he got that fish of that color.' +
-            '<br><br>The fisherman picks a different pond at the beginning of a new day, AND he may (or may not!) CHANGE ponds within the SAME day.' + 
+            '<br><br>The fisherman picks a new pond at the beginning of a new day, AND he may (or may not!) OCCASIONALLY CHANGE ponds within the SAME day.' + 
             '<br><br>So catching a fish of a color that is rare in the pond he has been fishing in could be due to chance...' + 
             '<br><br>OR it could mean he switched to a different pond!' + 
             '<br><br><br>Press "Q" Key to proceed.',
