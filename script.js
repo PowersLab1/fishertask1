@@ -493,9 +493,9 @@ function startExperiment() {
         // Implement data submission to server here
         console.log('Experiment complete. Data:', experimentData);
         const trialsDataJson = JSON.stringify(experimentData);
-        sessionStorage.setItem('taskData', trialsDataJson);
+        sessionStorage.setItem('fishertask1Data', trialsDataJson);
         window.postMessage({
-            type: 'labjs.data',
+            type: 'fishertask1labjs.data',
             json: trialsDataJson
         }, '*');
     }
